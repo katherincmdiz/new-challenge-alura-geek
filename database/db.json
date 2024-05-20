@@ -1,0 +1,40 @@
+{
+  "productos": [
+    {
+      "nombre": "Nintendo Switch",
+      "precio": "280.00",
+      "imagen": "https://production-tailoy-repo-magento-statics.s3.amazonaws.com/imagenes/872x872/productos/i/c/o/consola-nintendo-switch-neon-47030-default-1.jpg",
+      "id": 2
+    },
+    {
+      "nombre": "Joystick, Mando Bluetooth",
+      "precio": "69.00",
+      "imagen": "https://handsup.com.pe/wp-content/uploads/2021/01/IMG_7517.jpg",
+      "id": 3
+    },
+    {
+      "nombre": "Nintendo Switch Oled",
+      "precio": "980.00",
+      "imagen": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/tottusPE/43117571_1/w=800,h=800",
+      "id": 4
+    },
+    {
+      "nombre": "Nintendo Sup",
+      "precio": "74",
+      "imagen": "https://gadgetsandfunmx.com/api/fileApi/images/123/3/consolaroja.jpg",
+      "id": 5
+    },
+    {
+      "nombre": "Consola G5 mini retro",
+      "precio": "128",
+      "imagen": "https://handsup.com.pe/wp-content/uploads/2022/03/MCG5R.jpg",
+      "id": 6
+    },
+    {
+      "nombre": "Mini consola 8 Bits",
+      "precio": "78",
+      "imagen": "https://gadgetsandfunmx.com/api/fileApi/images/123/3/consola_8_bits_1.jpg",
+      "id": 7
+    }
+  ]
+}

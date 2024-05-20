@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X.UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>ALURA GEEK</title>
+</head>
+<body>
+    <header class="encabezado"> 
+        <a><img src="imagenes/logo.png" alt="logo" class="logo" ></a>
+        <h1 class="titulo"> ALURA GEEK</h1>
+    </header> 
+    
+    <main class="conteiner">
+        <section class="cards-de-productos">
+            <div class="subtitulo">
+                <h1>MIS PRODUCTOS :</h1>
+             </div>
+            <div class="lista-card" data-cards-productos>
+              <!-- <div class="card">
+                     <figure>
+                     <img class="producto-img"  src="https://handsup.com.pe/wp-content/uploads/2022/03/MCG5R.jpg" alt="img"/>
+                     <figcaption class="card-container--info">Consola G5 Mini Retro</figcaption>
+                     </figure>
+                  <div class="card-container--value">
+                     <p>s/ 128.00</p>
+                     <button class="delete-button" data-id="${id}">
+                     <img src="imagenes/trash-can.png" alt="eliminar"/>
+                     </button>
+                  </div>
+                </div> -->
+              </div>
+        </section>
+
+        <section class="formulario-conteiner">
+            <form class="formulario-producto" data-formulario>
+                <h2 class="subtitulo-formulario">Agregar Producto:</h2>
+                <div class="datos-formulario">
+                    <input type="text" name="nombre" placeholder="nombre..." data-nombre-producto   required>
+                    <p class="parrafo-nombre"></p>
+                    
+                    <input type="number" step ="0.01"  name="precio" placeholder="precio..." data-precio-producto   required>
+                    <p class="parrafo-precio"></p>
+                   
+                    <input type="url" name="url-imagen" placeholder="imagen..." data-imagen-producto  required>
+                    <p class="parrafo-url"></p>
+                  </div>
+                <div class="botones">
+                <button class="boton-enviar"     type="submit"data-enviar>Enviar</button>
+                <button class="boton-limpiar"     type="button" data-limpiar>Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+      <section class="pie-de-pagina">
+        <div class="logo-footer" >
+           <img src="imagenes/logo.png" alt="logo">
+           <h2>Alura Geek</h2>
+        </div>
+            <p>Desarrollado por Katherin Condori</p>
+            <p>Alura Latam - 2024</p>
+      </section>
+    </footer>
+    <script type="module" src="js/mostrarProducto.js"></script>
+</body>
+</html>
