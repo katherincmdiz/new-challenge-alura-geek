@@ -4,14 +4,14 @@ export async function listaDeProductos() {
     return conexionConvertida;
 }
 
-const nuevoProducto = async (nombre, precio, imagen) => {
+const nuevoProducto = async (name, price, imagen) => {
     try {
         const res = await fetch("https://fake-alura-geek.vercel.app/product", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
             },
-            body: JSON.stringify({ nombre, precio, imagen }),
+            body: JSON.stringify({ name, price, imagen }),
         });
         return await res.json();
     } catch (err) {

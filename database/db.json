@@ -1,40 +1,77 @@
 {
-  "productos": [
+     "productos":[
+
     {
-      "nombre": "Nintendo Switch",
-      "precio": "280.00",
-      "imagen": "https://production-tailoy-repo-magento-statics.s3.amazonaws.com/imagenes/872x872/productos/i/c/o/consola-nintendo-switch-neon-47030-default-1.jpg",
-      "id": 2
+      "id": 1,
+      "name": "Playstation 5 Controller - White",
+      "price": 50,
+      "imagen": "https://m.media-amazon.com/images/I/61IIJGmdmnL._SL1500_.jpg",
+      "description": "Playstation 5 Controller",
+      "category": "Video Games"
     },
     {
-      "nombre": "Joystick, Mando Bluetooth",
-      "precio": "69.00",
-      "imagen": "https://handsup.com.pe/wp-content/uploads/2021/01/IMG_7517.jpg",
-      "id": 3
+      "id": 2,
+      "name": "Playstation 5 Digital",
+      "price": 300,
+      "imagen": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-product-thumbnail-01-en-14sep21?$facebook$",
+      "description": "Playstation 5 console",
+      "category": "Video Games"
     },
     {
-      "nombre": "Nintendo Switch Oled",
-      "precio": "980.00",
-      "imagen": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/tottusPE/43117571_1/w=800,h=800",
-      "id": 4
+      "id": 3,
+      "name": "Splid Pad Pro - Zelda Tear of the Kingdom",
+      "price": 20,
+      "imagen": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/ncom/My%20Nintendo%20Store/EN-US/Nintendo%20Switch%20Accessories/Controllers/split-pad-pro-for-nintendo-switch-the-legend-of-zelda-tears-of-the-kingdom-edition-120385/120385-hori-split-pad-pro-zelda-totk-front-detached-1200x675",
+      "description": "Controller for Nintendo Switch",
+      "category": "Video Games"
     },
     {
-      "nombre": "Nintendo Sup",
-      "precio": "74",
-      "imagen": "https://gadgetsandfunmx.com/api/fileApi/images/123/3/consolaroja.jpg",
-      "id": 5
+      "id": 4,
+      "name": "Nintendo Switch",
+      "price": 250,
+      "imagen": "https://m.media-amazon.com/images/I/51Gz7IimgoL._AC_SL1024_.jpg",
+      "description": "Nintendo Switch console",
+      "category": "Video Games"
     },
     {
-      "nombre": "Consola G5 mini retro",
-      "precio": "128",
-      "imagen": "https://handsup.com.pe/wp-content/uploads/2022/03/MCG5R.jpg",
-      "id": 6
+      "id": 5,
+      "name": "PlayStation 5",
+      "price": 500,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/1/1b/PlayStation_5_and_DualSense_with_transparent_background.png",
+      "description": "Next generation gaming console",
+      "category": "Console"
     },
     {
-      "nombre": "Mini consola 8 Bits",
-      "precio": "78",
-      "imagen": "https://gadgetsandfunmx.com/api/fileApi/images/123/3/consola_8_bits_1.jpg",
-      "id": 7
+      "id": 6,
+      "name": "Xbox Series X",
+      "price": 400,
+      "imagen": "https://assets.xboxservices.com/assets/fb/d2/fbd2cb56-5c25-414d-9f46-e6a164cdf5be.png?n=XBX_A-BuyBoxBGImage01-D.png",
+      "description": "Powerful gaming console",
+      "category": "Console"
+    },
+    {
+      "id": 7,
+      "name": "Nintendo Gameboy Advance",
+      "price": 200,
+      "imagen": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Nintendo-Game-Boy-Advance-Purple-FL.jpg",
+      "description": "Hybrid gaming console",
+      "category": "Console"
+    },
+    {
+      "id": 8,
+      "name": "PlayStation 4 - Fat",
+      "price": 300,
+      "imagen": "https://www.gamerfocus.co/wp-content/uploads/2015/11/PiEsFor.jpg",
+      "description": "Previous generation gaming console",
+      "category": "Console"
+    },
+    {
+      "id": 9,
+      "name": "Xbox One",
+      "price": 250,
+      "imagen": "https://http2.mlstatic.com/D_Q_NP_834546-MLA50832788403_072022-O.webp",
+      "description": "Previous generation gaming console",
+      "category": "Console"
     }
   ]
 }
