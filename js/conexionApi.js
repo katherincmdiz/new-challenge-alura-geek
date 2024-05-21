@@ -1,12 +1,12 @@
 export async function listaDeProductos() {
-    const conexion = await fetch("http://localhost:3000/productos");
+    const conexion = await fetch("https://fake-alura-geek.vercel.app/product");
     const conexionConvertida = await conexion.json(); // Esperar la conversión a JSON
     return conexionConvertida;
 }
 
 const nuevoProducto = async (nombre, precio, imagen) => {
     try {
-        const res = await fetch("http://localhost:3000/productos", {
+        const res = await fetch("https://fake-alura-geek.vercel.app/product", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -21,7 +21,7 @@ const nuevoProducto = async (nombre, precio, imagen) => {
 
 const borrarProducto = async (id) => {
     try {
-        const res = await fetch(`http://localhost:3000/productos/${id}`, {
+        const res = await fetch(`https://fake-alura-geek.vercel.app/product/${id}`, {
             method: "DELETE",
         });
         return res.ok;
