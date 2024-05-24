@@ -2,6 +2,8 @@
 
 Alura Geek es una aplicación web diseñada para gestionar una lista de productos. La aplicación permite a los usuarios agregar nuevos productos proporcionando el nombre del producto, el precio y la URL de la imagen. 
 
+[![muestra.png](https://i.postimg.cc/63hvc2rF/muestra.png)](https://postimg.cc/ygkxYNrT)
+
 ## Funcionalidades
 
 - **Agregar Producto:**
@@ -29,9 +31,15 @@ Alura Geek es una aplicación web diseñada para gestionar una lista de producto
 - **Visual Studio Code:**
   Como entorno de desarrollo.
 
+ ## Ejecutando una API REST falsa en línea
+
+1. Hice click en "Use this Template" del repositorio de **SofiDev0**.
+2. Creé un nuevo repositorio y actualiza el db.json predeterminado por mi db.json con mis productos.
+3. Creé una cuenta en Vercel y ancle mi github.
+4. Desde el panel de Vercel, hice clic en "+ Nuevo Proyecto" y luego click en  "Importar" mi repositorio creado.
+5. En la pantalla "Configurar Proyecto", deje todo por defecto y hice clic en "Desplegar".
+6. Copie la nueva Url servidor falsa y volvi a Visual Studio modifique los campos donde estaba mi local 3000 por el nuevo Url servidor falsa.
 
 
-
-
-  Desarrollado por Katherin Condori
+Desarrollado por Katherin Condori
 
